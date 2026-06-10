@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#010704"/>
+      <stop offset="0.55" stop-color="#011209"/>
+      <stop offset="1" stop-color="#031b12"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#133020" stroke-width="1" opacity="0.42"/>
+    </pattern>
+    <pattern id="scan" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0 7.5H8" stroke="#64fe54" stroke-width="1" opacity="0.06"/>
+    </pattern>
+    <filter id="soft-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+  <rect width="1920" height="1080" fill="url(#scan)"/>
+  <g fill="none" stroke="#3dd425" stroke-width="1.5" opacity="0.22">
+    <path d="M180 160H820M180 920H1160M1120 160H1740M1280 850H1740"/>
+    <path d="M180 160V520M1740 160V680M1160 920V760M1280 850V610"/>
+  </g>
+  <g font-family="Hack, monospace" font-size="26" fill="#3dd425" opacity="0.86" filter="url(#soft-glow)">
+    <text x="188" y="214">&gt; systemctl --user status hermes</text>
+    <text x="188" y="270" opacity="0.66">[ ok ] plasma.shell: theme=Iridiscent-round</text>
+    <text x="188" y="326" opacity="0.52">[ env ] accent=#3dd425 prompt='&gt;_'</text>
+  </g>
+  <g font-family="Hack, monospace" font-size="20" fill="#71f79f" opacity="0.34">
+    <text x="1134" y="218">const palette = { accent: '#3dd425', bg: '#011209' };</text>
+    <text x="1134" y="268">watch('/plasma/theme').on('change', reloadShell);</text>
+    <text x="1134" y="318">render(panel).with({ blur: 0.18, grid: true });</text>
+    <text x="1134" y="368">focus(item).border('1px solid #64fe54');</text>
+  </g>
+  <g opacity="0.25">
+    <rect x="168" y="136" width="676" height="408" rx="2" fill="#011209" stroke="#3dd425" stroke-width="1"/>
+    <rect x="1104" y="136" width="672" height="270" rx="2" fill="#011209" stroke="#3dd425" stroke-width="1"/>
+    <rect x="1264" y="602" width="512" height="276" rx="2" fill="#011209" stroke="#3dd425" stroke-width="1"/>
+  </g>
+  <g fill="#3dd425" opacity="0.16">
+    <rect x="220" y="410" width="220" height="8"/>
+    <rect x="220" y="444" width="420" height="8"/>
+    <rect x="220" y="478" width="310" height="8"/>
+    <rect x="1310" y="660" width="370" height="7"/>
+    <rect x="1310" y="694" width="250" height="7"/>
+    <rect x="1310" y="728" width="410" height="7"/>
+    <rect x="1310" y="762" width="190" height="7"/>
+  </g>
+  <text x="1708" y="1008" font-family="Hack, monospace" font-size="44" fill="#3dd425" opacity="0.62">&gt;_</text>
+</svg>

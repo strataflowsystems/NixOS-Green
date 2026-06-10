@@ -1,0 +1,15 @@
+[Desktops]
+Id_1=29af1ee5-3fbb-40aa-b314-74b385b9048e
+Number=1
+Rows=1
+
+[Effect-Blur]
+BlurStrength=3
+NoiseStrength=1
+
+[Tiling][29af1ee5-3fbb-40aa-b314-74b385b9048e][c8754148-b517-490d-ae6a-ee7a1195fc55]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Xwayland]
+Scale=1

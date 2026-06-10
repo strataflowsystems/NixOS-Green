@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "rkstrdee@gmail.com",
+                "Name": "Dharam Dhurandhar"
+            }
+        ],
+        "Category": "Global Themes (Plasma 6)",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "EnabledByDefault": true,
+        "Name": "Iridiscent Round",
+        "Description": "A dark neon Global Theme for Plasma with transparency and rounded edges",
+        "Id": "Iridiscent-round",
+        "Version": "3.0",
+        "License": "GPL-2.0+",
+        "Website": "https://github.com/rkstrdee/Iridescent"
+    }
+}

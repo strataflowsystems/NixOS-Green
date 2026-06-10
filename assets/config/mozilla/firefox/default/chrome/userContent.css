@@ -1,0 +1,78 @@
+@-moz-document url-prefix("about:"), url-prefix("chrome://browser/content/") {
+  :root {
+    --in-content-page-background: #010a06 !important;
+    --in-content-page-color: #3dd425 !important;
+    --in-content-text-color: #3dd425 !important;
+    --in-content-deemphasized-text: #175418 !important;
+    --in-content-box-background: #011209 !important;
+    --in-content-box-background-odd: #061a13 !important;
+    --in-content-box-border-color: #0e3816 !important;
+    --in-content-border-color: #0e3816 !important;
+    --in-content-primary-button-background: #2b9820 !important;
+    --in-content-primary-button-background-hover: #3dd425 !important;
+    --in-content-primary-button-text-color: #000000 !important;
+    --in-content-button-background: #061a13 !important;
+    --in-content-button-background-hover: #0b2c14 !important;
+    --in-content-button-text-color: #71f79f !important;
+    --in-content-accent-color: #3dd425 !important;
+    --in-content-accent-color-active: #71f79f !important;
+    --link-color: #3dd425 !important;
+    --link-color-hover: #71f79f !important;
+    color-scheme: dark !important;
+    background-color: #010a06 !important;
+    color: #3dd425 !important;
+    font-family: "Hack", monospace !important;
+  }
+
+  body,
+  main,
+  section,
+  article,
+  search-textbox,
+  input,
+  textarea,
+  select,
+  button,
+  richlistbox,
+  tree,
+  .main-content,
+  .container,
+  .card,
+  .dialogBox,
+  .sidebar-footer-list,
+  .navigation,
+  .sticky-container {
+    background-color: #010a06 !important;
+    color: #3dd425 !important;
+    border-color: #0e3816 !important;
+    font-family: "Hack", monospace !important;
+  }
+
+  input,
+  textarea,
+  search-textbox,
+  select {
+    background-color: #011209 !important;
+    color: #71f79f !important;
+    border: 1px solid #0e3816 !important;
+  }
+
+  button,
+  .button,
+  .primary {
+    background-color: #061a13 !important;
+    color: #71f79f !important;
+    border-color: #0e3816 !important;
+  }
+
+  button:hover,
+  .button:hover {
+    background-color: #0b2c14 !important;
+    color: #71f79f !important;
+  }
+
+  a,
+  .text-link {
+    color: #3dd425 !important;
+  }
+}

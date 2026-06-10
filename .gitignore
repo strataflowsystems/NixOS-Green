@@ -1,0 +1,8 @@
+.direnv/
+.envrc
+result
+result-*
+*.bak
+*.tmp
+*.swp
+*~

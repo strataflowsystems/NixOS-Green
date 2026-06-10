@@ -1,0 +1,117 @@
+:root {
+  --hermes-bg: #010a06;
+  --hermes-surface: #011209;
+  --hermes-surface-2: #061a13;
+  --hermes-line: #0e3816;
+  --hermes-text: #3dd425;
+  --hermes-dim: #175418;
+  --hermes-bright: #71f79f;
+  --hermes-cyan: #46e46a;
+  --toolbar-bgcolor: var(--hermes-bg) !important;
+  --toolbar-color: var(--hermes-text) !important;
+  --tabs-navbar-shadow-size: 0 !important;
+  --lwt-accent-color: var(--hermes-bg) !important;
+  --lwt-text-color: var(--hermes-text) !important;
+  --lwt-toolbar-field-background-color: var(--hermes-surface) !important;
+  --lwt-toolbar-field-color: var(--hermes-text) !important;
+  --lwt-toolbar-field-border-color: var(--hermes-line) !important;
+  --lwt-toolbar-field-focus: var(--hermes-surface) !important;
+  --lwt-toolbar-field-focus-color: var(--hermes-bright) !important;
+  --lwt-tab-text: var(--hermes-text) !important;
+  --tab-selected-bgcolor: #04190e !important;
+  --tab-selected-textcolor: var(--hermes-bright) !important;
+  --arrowpanel-background: var(--hermes-surface) !important;
+  --arrowpanel-color: var(--hermes-text) !important;
+  --arrowpanel-border-color: var(--hermes-line) !important;
+  font-family: "Hack", monospace !important;
+}
+
+#navigator-toolbox,
+#titlebar,
+#TabsToolbar,
+#nav-bar,
+#PersonalToolbar {
+  background: var(--hermes-bg) !important;
+  color: var(--hermes-text) !important;
+  border-color: var(--hermes-line) !important;
+}
+
+#navigator-toolbox {
+  border-bottom: 1px solid var(--hermes-line) !important;
+}
+
+.tab-background {
+  background: var(--hermes-surface) !important;
+  border: 1px solid var(--hermes-line) !important;
+  box-shadow: none !important;
+}
+
+.tabbrowser-tab[selected="true"] .tab-background {
+  background: linear-gradient(180deg, #062314 0%, #011209 100%) !important;
+  border-color: var(--hermes-text) !important;
+}
+
+.tab-label,
+.toolbarbutton-text,
+.toolbarbutton-1,
+#urlbar-input,
+#searchbar input {
+  color: var(--hermes-text) !important;
+  font-family: "Hack", monospace !important;
+}
+
+.tabbrowser-tab[selected="true"] .tab-label {
+  color: var(--hermes-bright) !important;
+}
+
+#urlbar-background,
+#searchbar {
+  background: var(--hermes-surface) !important;
+  border: 1px solid var(--hermes-line) !important;
+  box-shadow: inset 0 0 0 1px #061a13 !important;
+}
+
+#urlbar[focused="true"] #urlbar-background {
+  border-color: var(--hermes-text) !important;
+  box-shadow: 0 0 0 1px var(--hermes-text), 0 0 10px rgba(61, 212, 37, 0.22) !important;
+}
+
+.urlbarView,
+.urlbarView-row,
+menupopup,
+panel,
+panelview,
+.panel-subview-body {
+  background: var(--hermes-surface) !important;
+  color: var(--hermes-text) !important;
+  border-color: var(--hermes-line) !important;
+}
+
+.urlbarView-row[selected],
+menuitem[_moz-menuactive="true"],
+.subviewbutton:hover {
+  background: #0b2c14 !important;
+  color: var(--hermes-bright) !important;
+}
+
+toolbarbutton:hover,
+.toolbarbutton-1:hover,
+.tabbrowser-tab:hover .tab-background {
+  background-color: #092812 !important;
+  color: var(--hermes-bright) !important;
+}
+
+#sidebar-box,
+#sidebar-header,
+browser[type="content"],
+findbar {
+  background: var(--hermes-bg) !important;
+  color: var(--hermes-text) !important;
+  border-color: var(--hermes-line) !important;
+}
+
+#statuspanel-label {
+  background: var(--hermes-surface) !important;
+  color: var(--hermes-text) !important;
+  border: 1px solid var(--hermes-line) !important;
+}
