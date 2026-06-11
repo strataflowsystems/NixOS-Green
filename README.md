@@ -38,6 +38,7 @@ you want the included `userChrome.css` and `userContent.css` linked.
 - Iridescent color schemes.
 - GTK 3/4, Qt/KDE, Kitty, and Firefox chrome theme files.
 - HermesCode wallpaper.
+- [Strataflow NixOS terminal wallpaper 3840x2160](assets/strataflow_nixos_terminal_wallpaper_3840x2160.png).
 
 ## Not Included
 
